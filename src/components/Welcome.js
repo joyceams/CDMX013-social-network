@@ -7,9 +7,6 @@ export const Welcome = () => {
   const textIntro = document.createElement('h4');
   textIntro.textContent = 'Welcome to a place to share information, exchange ideas and talk about your favourite Japanese manga series.';
   textIntro.classList.add('textIntro');
-  /* textOption.textContent = 'OR';
-  textIntro.classList.add('textIntro');
- */
   const buttonLogin = document.createElement('button');
   const buttonSignUp = document.createElement('button');
   const inputEmail = document.createElement('input');
