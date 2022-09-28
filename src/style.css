@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Mulish:wght@300;400;700&family=Rampart+One&display=swap');
+
+* {
+    margin: 8px;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-welcome {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/fondoFINAL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Rampart One', cursive;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.title2 {
+    position: absolute;
+    font-family: 'DotGothic16';
+    color:rgb(26, 26, 92);
+    margin-top: 20px;
+    margin-left: 33px;
+    font-size: 20px;
+    
+}
+
+button {
+    text-align: center;
+    color: white;
+    padding: 6px;
+    margin-top: 450px;
+    margin-left: 65px;
+    border-radius: 8px;
+    background-color: rgb(26, 26, 92);
+    border-top-color: rgb(144, 144, 171);
+
+}
+
+.inputOne {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 60px;
+    border-radius: 8px;
+    border-bottom: 15px;
+    border-top-color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.inputTwo {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 60px;
+    border-radius: 8px;
+    border-bottom: 15px;
+    border-top-color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.textIntro{
+    position: absolute;
+    font-style: 700;
+    margin-top: -350px;
+    margin-left: 6px;
+    border-radius: 8px;
+    border-bottom: 15px;
+    border-top-color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
